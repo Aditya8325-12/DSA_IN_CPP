@@ -27,7 +27,6 @@ int main()
         sum += a[j];
         while(sum > 12)
         {
-            cout<<endl<<"==="<<sum;
             sum -=a[i];
             i++;
         }
